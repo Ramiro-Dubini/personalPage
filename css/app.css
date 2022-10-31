@@ -264,7 +264,7 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 1.25em;
+    font-size: 0.9em;
     opacity: 0;
     transform:translateZ(1) scale(1.2);
     transition: all .5s ease;
@@ -288,7 +288,7 @@ body{
     max-width: 40rem;
     margin: 0.8rem 1rem;
     font-size: 1.5em;
-    text-align: left;
+    text-align: center;
 }
 .about .rrss{
     width: 100%;
@@ -326,5 +326,41 @@ body{
     }
     to{
         transform:rotate(360deg) scale(3.5);
+    }
+}
+@media (max-width: 570px) {
+    .seccion .h2{
+        font-size: 3em;
+    }
+    .seccion .h3{
+        font-size: 2em;
+    }
+    .about .p{
+        font-size: 1.2em;
+    }
+    .seccion .ul .a{
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 475px) {
+    .seccion .h2{
+        font-size: 2em;
+    }
+    .seccion .h3{
+        font-size: 1.2em;
+    }
+    .seccion .ul .a{
+        font-size: 0.6em;
+    }
+}
+@media (max-width: 345px) {
+    .seccion .h2{
+        font-size: 1.6em;
+    }
+    .seccion .h3{
+        font-size: 1em;
+    }
+    .seccion .ul .a{
+        font-size: 0.5em;
     }
 }
