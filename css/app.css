@@ -288,13 +288,14 @@ body{
     margin: 0 0 2.5rem;
 }
 .about .h2{
-    margin: 0 0 2.5rem;
+    margin: 0 0 2rem;
 }
 .about .p{
     max-width: 40rem;
-    margin: 0.8rem 1rem;
+    margin: 1rem 1rem;
     font-size: 1.5em;
     text-align: center;
+    line-height: 1.1em;
 }
 .about .rrss{
     width: 100%;
@@ -309,17 +310,12 @@ body{
 .about .a{
 }
 .about .svg{
-    width: 2.8em;
-    height: 2.8em;
+    width: 3.5em;
+    height: 3.5em;
     margin-top: 1rem;
-    transition: all 0.3s;
-    transform:scale(1)
-}
-.about .svg:hover{
-    transform: scale(1.2);
 }
 .footer{
-    padding: 2em 0;
+    padding: 0.25em 0;
     text-align: center;
     position: relative;
     z-index: 2;
@@ -381,8 +377,8 @@ body{
     }
 }
 #cursor{
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
     background-color: white;
     position: fixed;
     top: 0;
@@ -392,7 +388,3 @@ body{
     border-radius: 50%;
     mix-blend-mode: difference;
 }
-#cursor.mini{
-    transform: scale(0.7);
-    transition: all .1s linear;
-} 
