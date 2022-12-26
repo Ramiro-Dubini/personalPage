@@ -354,6 +354,9 @@ body{
     .seccion .ul .a{
         font-size: 0.6em;
     }
+    .seccion .ul .li {
+        margin: 0.4em;
+    }
 }
 @media (max-width: 345px) {
     .seccion .h2{
