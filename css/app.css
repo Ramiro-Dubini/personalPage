@@ -225,7 +225,7 @@ body{
 }
 .seccion .h3{
     font-family: var(--tipo-titular);
-    font-size: 2.8em;
+    font-size: 2em;
     margin: 0.5em 0;
 }
 .seccion .p{
